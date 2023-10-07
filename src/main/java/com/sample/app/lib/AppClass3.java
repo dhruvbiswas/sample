@@ -3,6 +3,7 @@ package com.sample.app.lib;
 import com.sample.app.lib.base2.BaseBaseClass;
 import com.sprung.core.annotations.AutoWired;
 import com.sprung.core.annotations.SprungComponent;
+import com.sprung.core.annotations.Value;
 
 @SprungComponent
 public class AppClass3 extends BaseBaseClass {
@@ -14,8 +15,11 @@ public class AppClass3 extends BaseBaseClass {
     private float floatvar = 1.0f;
     private boolean booleanvar = false;
 
-    // @Configuration("xyz")
-    private int propvalue = 0;
+    @Value("sampletestvalue")
+    private String propvalue = "";
+
+    @Value("10")
+    private String someothervalue = "";
 
     @AutoWired
     private AppClass2 appClass2_instance2;
@@ -25,6 +29,8 @@ public class AppClass3 extends BaseBaseClass {
                 "|longvar:" + longvar +
                 "|floatvar:" + floatvar +
                 "|boolvar:" + booleanvar +
+                "|propvalue:" + propvalue +
+                "|someothervalue:" + someothervalue +
                 "|AppClass2 inside AppClass3:" + this.appClass2_instance2.toString();
     }
 
