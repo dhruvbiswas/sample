@@ -1,9 +1,9 @@
 package com.sample.app.lib;
 
-import com.sprung.core.annotations.SprungComponent;
+import com.sprung.core.annotations.Component;
 import com.sprung.core.annotations.Value;
 
-@SprungComponent
+@Component
 public class AppClass2 {
 
     private String className = this.getClass().getName();

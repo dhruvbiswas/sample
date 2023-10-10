@@ -2,10 +2,10 @@ package com.sample.app.lib;
 
 import com.sample.app.lib.base2.BaseBaseClass;
 import com.sprung.core.annotations.AutoWired;
-import com.sprung.core.annotations.SprungComponent;
+import com.sprung.core.annotations.Component;
 import com.sprung.core.annotations.Value;
 
-@SprungComponent
+@Component
 public class AppClass3 extends BaseBaseClass {
 
     private String className = this.getClass().getName();

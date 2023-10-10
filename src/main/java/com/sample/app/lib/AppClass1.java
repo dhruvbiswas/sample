@@ -1,9 +1,9 @@
 package com.sample.app.lib;
 
 import com.sample.app.lib.base.BaseClass;
-import com.sprung.core.annotations.SprungComponent;
+import com.sprung.core.annotations.Component;
 
-@SprungComponent
+@Component
 public class AppClass1 extends BaseClass {
 
     private String className = this.getClass().getName();

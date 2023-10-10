@@ -4,12 +4,12 @@ import com.sample.app.lib.AppClass1;
 import com.sample.app.lib.AppClass3;
 import com.sample.app.lib.AppClass4;
 import com.sprung.core.SprungApplication;
-import com.sprung.core.annotations.SprungComponentScan;
+import com.sprung.core.annotations.ComponentScan;
 import com.sprung.core.runners.CommandLineRunner;
 
 import java.io.IOException;
 
-@SprungComponentScan(pkg = "com.sample.app.lib")
+@ComponentScan(pkg = "com.sample.app.lib")
 public class Main extends CommandLineRunner {
 
     public static void main(String[] args) throws IOException {

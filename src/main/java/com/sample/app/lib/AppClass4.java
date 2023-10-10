@@ -1,10 +1,9 @@
 package com.sample.app.lib;
 
-import com.sample.app.lib.AppClass2;
 import com.sprung.core.annotations.AutoWired;
-import com.sprung.core.annotations.SprungComponent;
+import com.sprung.core.annotations.Component;
 
-@SprungComponent
+@Component
 public class AppClass4 {
 
     @AutoWired
