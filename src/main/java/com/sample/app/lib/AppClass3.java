@@ -1,9 +1,9 @@
 package com.sample.app.lib;
 
 import com.sample.app.lib.base2.BaseBaseClass;
-import com.sprung.core.annotations.AutoWired;
-import com.sprung.core.annotations.Component;
-import com.sprung.core.annotations.Value;
+import com.di.core.annotations.AutoWired;
+import com.di.core.annotations.Component;
+import com.di.core.annotations.Value;
 
 @Component
 public class AppClass3 extends BaseBaseClass {

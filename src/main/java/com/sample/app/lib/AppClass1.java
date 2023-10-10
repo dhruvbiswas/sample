@@ -1,7 +1,7 @@
 package com.sample.app.lib;
 
 import com.sample.app.lib.base.BaseClass;
-import com.sprung.core.annotations.Component;
+import com.di.core.annotations.Component;
 
 @Component
 public class AppClass1 extends BaseClass {

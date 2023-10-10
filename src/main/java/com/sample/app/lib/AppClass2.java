@@ -1,7 +1,7 @@
 package com.sample.app.lib;
 
-import com.sprung.core.annotations.Component;
-import com.sprung.core.annotations.Value;
+import com.di.core.annotations.Component;
+import com.di.core.annotations.Value;
 
 @Component
 public class AppClass2 {

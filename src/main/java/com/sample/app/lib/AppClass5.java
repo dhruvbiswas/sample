@@ -5,10 +5,10 @@ import com.di.core.annotations.Component;
 import com.di.core.container.DisposableBean;
 import com.di.core.container.InitializingBean;
 
-@Component
-public class AppClass4 implements InitializingBean, DisposableBean {
+@Component("AppClass5Bean")
+public class AppClass5 implements InitializingBean, DisposableBean {
 
-    private String classname = AppClass4.class.getCanonicalName();
+    private String classname = AppClass5.class.getCanonicalName();
 
     @AutoWired
     private AppClass2 appClass2;

@@ -2,7 +2,7 @@ package com.sample.app.lib.base;
 
 import com.sample.app.lib.AppClass2;
 import com.sample.app.lib.base.utils.UtilsBaseClass;
-import com.sprung.core.annotations.AutoWired;
+import com.di.core.annotations.AutoWired;
 
 public class BaseClass extends UtilsBaseClass {
 
