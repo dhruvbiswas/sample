@@ -2,6 +2,7 @@ package com.sample.app;
 
 import com.sample.app.lib.AppClass1;
 import com.sample.app.lib.AppClass3;
+import com.sample.app.lib.AppClass4;
 import com.sprung.core.SprungApplication;
 import com.sprung.core.annotations.SprungComponentScan;
 import com.sprung.core.runners.CommandLineRunner;
@@ -26,6 +27,10 @@ public class Main extends CommandLineRunner {
         AppClass3 appClass3 = (AppClass3) SprungApplication.getSprungContainer().
                 getObject("com.sample.app.lib.AppClass3");
         System.out.println(appClass3.toString());
+
+        AppClass4 appClass4 = (AppClass4) SprungApplication.getSprungContainer().
+                getObject("com.sample.app.lib.AppClass4");
+        System.out.println(appClass4.toString());
     }
 
 }
