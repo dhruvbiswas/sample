@@ -21,6 +21,13 @@ public class Main extends CommandLineRunner {
         System.out.println("Executing main class.....");
         System.out.println("Dumping Container Classes.....");
         System.out.println(SprungApplication.getSprungContainer().toString());
+
+        // TODO: Currently there is no XML support for creating bean-container
+        // TODO: Only annotations are supported for DI-Autowiring
+        // TODO: The key into the object factory is an FQ class
+        // TODO: There should be a proper/better-way to generate bean-ids when using
+        // TODO: annotation based DI-Autowiring
+
         AppClass1 appClass1 = (AppClass1) SprungApplication.getSprungContainer().getObject(
                 "com.sample.app.lib.AppClass1");
         System.out.println("I got an autowired class inside the container...." + appClass1.toString());
