@@ -10,7 +10,7 @@ public class AppClass3 extends BaseBaseClass {
 
     private String className = this.getClass().getName();
 
-    private int intvar = 0;
+    private int intvar;
     private long longvar = 10l;
     private float floatvar = 1.0f;
     private boolean booleanvar = false;
